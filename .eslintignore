@@ -1,0 +1,10 @@
+# node_modules ignored by default
+
+# Ignore assets
+assets/
+
+# Ignore built files
+build/
+
+# Ignore webpack configuration
+webpack.config.js

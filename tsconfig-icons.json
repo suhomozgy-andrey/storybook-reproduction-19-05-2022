@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "es/Icons",
+        "module": "commonjs"
+    },
+    "include": ["src/components/Icons"],
+    "exclude": ["node_modules", "dist"],
+}

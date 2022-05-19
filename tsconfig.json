@@ -1,12 +1,25 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "jsx": "preserve",
+    "target": "ES2015", 
+    "lib": ["dom", "DOM.Iterable", "ESNext"],
     "skipLibCheck": true,
-    "strict": true
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true, 
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "jsx": "react", 
+    "baseUrl": "./src",
+    "outDir": "./dist"
   },
-  "include": [
-    "src/*"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "src/components/Icons"],
+  "esModuleInterop": true
 }
